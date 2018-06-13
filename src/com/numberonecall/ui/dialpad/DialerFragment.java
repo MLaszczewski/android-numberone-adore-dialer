@@ -1381,7 +1381,7 @@ public class LongOperation extends AsyncTask<String, Void, String> {
     			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@DEVTADIYAL123 "+pass1);
 
     			
-    			 URL oracle = new URL("http://91.212.52.5/VSServices//Export.ashx?f=getClientBalance&pin="+user1);
+    			 URL oracle = new URL("http://one.alizeetelecom.com/VSServices/Export.ashx?f=getClientBalance&pin="+user1);
     		        URLConnection yc = oracle.openConnection();
     		        BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream()));
     		       

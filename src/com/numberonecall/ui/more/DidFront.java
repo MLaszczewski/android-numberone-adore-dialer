@@ -179,7 +179,7 @@ public class LongOperation extends AsyncTask<String, Void, String> {
 			  System.out.println("USERNAME "+data1);
 			  String data2=account.getPassword();	  
 			  System.out.println("PASSWORD "+data2);
-			String url = "http://91.212.52.5/access_ani.xml";
+			String url = "http://one.alizeetelecom.com/access_ani.xml";
 
 			URL obj = new URL(url);
 			HttpURLConnection con = (HttpURLConnection) obj.openConnection();

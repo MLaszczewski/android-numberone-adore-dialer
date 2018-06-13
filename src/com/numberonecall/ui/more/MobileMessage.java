@@ -384,7 +384,7 @@ public class LongOperation extends AsyncTask<String, Void, String> {
 			 String msg1  = msg.replaceAll(" ", "%20");
 		
 			 
-				URL oracle = new URL("http://91.212.52.5/VSServices/SendSms.ashx?login="+user1+"&pass="+pass1+"&text="+msg+"&from="+user1+"&to="+str1);
+				URL oracle = new URL("http://one.alizeetelecom.com/VSServices/SendSms.ashx?login="+user1+"&pass="+pass1+"&text="+msg+"&from="+user1+"&to="+str1);
            BufferedReader in = new BufferedReader(new InputStreamReader(oracle.openStream()));
            String inputLine;
            int i=1;
